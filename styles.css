@@ -1,0 +1,73 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+   background: gainsboro;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   position: relative;
+   padding-bottom: 3em;
+   min-height: 100vh;
+}
+#container{
+   /*width: 70%:*/
+   margin: 0px auto;
+   padding: 20px;}
+.row{ display: flex;
+   flex-wrap: wrap;
+   margin: 10px;}
+.column {
+   flex: 1;
+   padding: 10px;}
+header{
+   background: lightslategrey;
+   height: 100px;
+   width: 100%;
+   margin: 0px;
+   text-align: center;
+   line-height: 100px;
+   border-bottom: 1px dashed lightseagreen ;
+}
+nav{
+   background: lightgrey;
+   height: 50px;
+   border: 1px solid black;
+}
+nav ul il{
+   float: left;
+   list-style: none;
+   margin: 10px;
+   line-height: 30px;
+}
+.clearflic{
+   clear: both;
+}
+#content{
+   float: left;
+   width: 80%;
+   min-height: 500px;
+   background: lightsteelblue;
+}
+.article{
+   color: black;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   border-bottom: 1px solid #eee;
+   padding-bottom: 10px;
+}
+aside{
+   float: left;
+   width: calc(20% - 20px);
+   background: lightsalmon;
+   padding: 10px;
+}
+footer{
+   background: black;
+   color: white;
+   text-align: center;
+   height: 50px;
+   line-height: 50px;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
